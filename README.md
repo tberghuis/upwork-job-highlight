@@ -1,0 +1,1 @@
+Chrome extension that highlights job that was at top of list on last refresh
