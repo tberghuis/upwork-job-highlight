@@ -1,6 +1,6 @@
 Chrome extension that highlights the job that was at top of list on last refresh.
 
-Works on job search pages *://*.upwork.com/*search*
+Works on job search pages \*://\*.upwork.com/\*search\*
 
 Handy to mark which jobs you may have already read.
 
