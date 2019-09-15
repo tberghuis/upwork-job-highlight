@@ -1,7 +1,7 @@
 {
   "name": "Upwork Job Highlight on Refresh",
   "description": "See position of top job in list from before page was refreshed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
   "content_scripts": [
     {

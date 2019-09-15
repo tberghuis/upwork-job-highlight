@@ -12,4 +12,14 @@ const main = () => {
   localStorage.setItem("topHref", topHref);
 };
 
-main();
+window.addEventListener("load", waitJobTitleLink, false);
+
+function waitJobTitleLink() {
+  const interval = setInterval(checkJobTitleLink, 111);
+  function checkJobTitleLink() {
+    if (document.querySelector(".job-title-link")) {
+      clearInterval(interval);
+      main();
+    }
+  }
+}
