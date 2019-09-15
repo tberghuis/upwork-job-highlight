@@ -1,9 +1,9 @@
 const main = () => {
   const lastTopHref = localStorage.getItem("topHref");
-  if (lastTopHref) {
-    const lastTopLinkTitle = document.querySelector(
-      `.job-title-link[href='${lastTopHref}']`
-    );
+  const lastTopLinkTitle = document.querySelector(
+    `.job-title-link[href='${lastTopHref}']`
+  );
+  if (lastTopLinkTitle) {
     const section = lastTopLinkTitle.closest("section");
     section.classList.add("ujh-highlight");
   }
