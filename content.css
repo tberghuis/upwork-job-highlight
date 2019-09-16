@@ -1,3 +1,20 @@
 .ujh-highlight {
   background-color: #ff00e040 !important;
 }
+
+#ujh-timer {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 6px;
+  background: white;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  min-width: 100px;
+  text-align: center;
+  font-family: monospace;
+}
+
+#ujh-timer span {
+  margin: 3px;
+}
