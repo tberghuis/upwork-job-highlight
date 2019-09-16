@@ -4,5 +4,5 @@
 
 rm upwork-job-highlight.zip
 
-zip upwork-job-highlight.zip content.css content.js hot-reload.js manifest.json
+zip upwork-job-highlight.zip content.css content.js hot-reload.js manifest.json timer.js vue.js
 
